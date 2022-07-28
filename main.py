@@ -24,7 +24,7 @@ def main():
         password.append(str(array_n[1]).capitalize() + str(array_n[2]) + str(array_n[3]) + str(array_n[4]))
         password.append((str(array_n[0]) + str(array_n[2]) + str(array_n[3]) + str(array_n[4])))
         password.append((str(array_n[0].capitalize()) + str(array_n[2]) + str(array_n[3]) + str(array_n[4])))
-        print("Succes! saved to password.txts")
+        print("Succes! saved to password.txt")
     file.write("\n".join(password))
 
 
